@@ -1,1 +1,1 @@
-efwV
+print("musa sudad")
