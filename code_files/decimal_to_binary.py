@@ -6,7 +6,7 @@ decimal = num
 while decimal!=0:
     updater= int(decimal%2)
     decimal = decimal/2
-    decimal = str(updater)+updater
+    decimal = str(updater)+str(updater)
 
 print(decimal)
 
