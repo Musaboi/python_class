@@ -1,15 +1,14 @@
-from msilib.schema import Binary
+num = int(input("Enter your number here \n->"))
+quo  = num
+binary = ""
 
+while quo != 0 :
+    
+    rem = quo % 2
+    binary = str(rem) + binary
+    quo = int(quo /2) 
 
-num = int(input("Enter your number \n->"))
-decimal = num
-while decimal!=0:
-    updater= int(decimal%2)
-    decimal = decimal/2
-    decimal = str(updater)+str(updater)
-
-print(decimal)
-
+print(f"{num} in binary is {binary}.")
 
  
 
