@@ -1,3 +1,3 @@
-mylist = ["apple", "banana", "cherry"]
-x = len(mylist)
-print(x)
+num = input("Enter bits separated by comma:")
+num_list = num.split(",")
+sum = 
