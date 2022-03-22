@@ -2,7 +2,7 @@
 #List - square braces Mutable - can change
 #Tuple - rounded braces    IMMUTABLE- cannot change item
 #Set -  the set keyword
-#Dictionary - 
+#Dictionary - {}
 
 list1 = ['Computer','Printer','TV']
 list1[0] = "pc"
