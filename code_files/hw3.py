@@ -31,7 +31,6 @@ elif hex_list[0] == "E" :
 elif hex_list[0] == "F" :
     hex_list[0]  = "1111"
 
-
 if hex_list[1] == "1" :
     hex_list[1] = "0001"
 elif hex_list[1] == "2" :

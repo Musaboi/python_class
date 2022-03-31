@@ -1,3 +1,10 @@
-num = input("Enter bits separated by comma:")
-num_list = num.split(",")
-sum = num
+#Difference between 
+#List - square braces Mutable - can change
+#Tuple - rounded braces    IMMUTABLE- cannot change item
+#Set -  the set keyword
+#Dictionary - {}
+
+i_list = [1,2,3,4,5,6]
+
+for i in i_list :
+  print(i+1)
