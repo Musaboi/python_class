@@ -1,3 +1,2 @@
-
-for i in range(13) :
-    print(i)
+num = list(range(0,100,3))
+print(num)
